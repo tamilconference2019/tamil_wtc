@@ -12,7 +12,6 @@ class _EventsListState extends State<EventsList> {
   @override
  Widget build(BuildContext context) {
    return Scaffold(
-     appBar: AppBar(title: Text('Events List')),
      body: _buildBody(context),
    );
  }
